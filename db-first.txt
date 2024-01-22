@@ -1,0 +1,13 @@
+nome tabella: used_cars
+
+id  -   integer - MEDIUMINT - UNSIGNED - NOT NULL, UNIQUE, AUTOINCREMENT - PRIMARY KEY
+brand - string - VARHCAR (20) - NOT NULL
+model - string - VARCHAR (40) - NOT NULL
+color - string - VARCHAR (20)
+price - float - DECIMAL(9, 2) - NOT NULL
+registration_year - date - DATE - NOT NULL
+seats - integer - TINYINT - UNSIGNED - NOT NULL
+description - string - TEXT - NULL
+discount - integer - TINYINT(100) - SIGNED - NULL
+km - integer - MEDIUMINT - SIGNED -  NULL
+description - string - TEXT - NULL
